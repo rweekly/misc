@@ -1,10 +1,6 @@
 
 Australia R User Group
 
-+ [Wellington R Users Group (WRUG)](https://www.meetup.com/Wellington-R-Users-Group-WRUG/)
-
-+ [Auckland R Users Group (AKLRUG)](https://www.meetup.com/Auckland-R-Users-Group-AKLRUG/)
-
 + [Sydney Users of R Forum (SURF)](https://www.meetup.com/R-Users-Sydney/)
 
 + [Western Australia R Group (WARG)](https://www.meetup.com/Western-Australia-R-Group-WARG/)

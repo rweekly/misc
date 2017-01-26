@@ -1,0 +1,22 @@
+
+Australia R User Group
+
++ [Wellington R Users Group (WRUG)](https://www.meetup.com/Wellington-R-Users-Group-WRUG/)
+
++ [Auckland R Users Group (AKLRUG)](https://www.meetup.com/Auckland-R-Users-Group-AKLRUG/)
+
++ [Sydney Users of R Forum (SURF)](https://www.meetup.com/R-Users-Sydney/)
+
++ [Western Australia R Group (WARG)](https://www.meetup.com/Western-Australia-R-Group-WARG/)
+
++ [Murdoch University R User Group](https://murugperth.wordpress.com/)
+
++ [R-Ladies Melbourne](https://www.meetup.com/R-Ladies-Melbourne/)
+
++ [Melbourne Users of R Network (MelbURN)](https://www.meetup.com/MelbURN-Melbourne-Users-of-R-Network/)
+
++ [Hobart R Users Group](https://www.meetup.com/Hobart-R-Users-Group/)
+
++ [Brisbane Users of R Group - BURGr](https://www.meetup.com/Brisbane-Users-of-R-Group-BURGr/)
+
++ [Adelaide R Users Group](https://www.meetup.com/Adelaide-R-Users/)

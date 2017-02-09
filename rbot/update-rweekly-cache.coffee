@@ -29,9 +29,10 @@ module.exports = (robot) ->
         .header('X-Auth-Key', rweekly_key)
         .del(data) (err, res, body) ->
           if res.statusCode isnt 200
+            robot.logger.error "Hubot update-scripts: #{err}"
             msg.send "Request came back HTTP #{res.statusCode} :("
             return
           msg.send "Done, #{url} updated, cmd + shift + R to refresh web page"
     catch error
-      robot.logger.error "Hubot update-scripts: error"
+      robot.logger.error "Hubot update-scripts: #{error}"
       msg.send "Could not update-scripts: error"

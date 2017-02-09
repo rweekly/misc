@@ -2,7 +2,7 @@
 #   Allows Hubot to update R Weekly cache
 #
 # Commands:
-#   hubot update-cache <url> - `update-cache rweekly.org/2017-1.html`
+#   hubot update-cache <url> - `update-cache https://rweekly.org/2017-1.html`
 #
 # Author:
 #   R Weekly
@@ -21,7 +21,7 @@ module.exports = (robot) ->
       rweekly_url = process.env["RWEEKLY_URL"]
       url = msg.match[1]
       data = JSON.stringify({
-        files: ['https://' + url]
+        files: [url]
       })
       robot.http(rweekly_url)
         .header('Content-Type', 'application/json')
@@ -29,7 +29,7 @@ module.exports = (robot) ->
         .header('X-Auth-Key', rweekly_key)
         .del(data) (err, res, body) ->
           if res.statusCode isnt 200
-            robot.logger.error "Hubot update-scripts: #{err}"
+            robot.logger.error "Hubot update-scripts: #{body}"
             msg.send "Request came back HTTP #{res.statusCode} :("
             return
           msg.send "Done, #{url} updated, cmd + shift + R to refresh web page"

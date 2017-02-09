@@ -15,8 +15,8 @@ exec = require('child_process').exec
 module.exports = (robot) ->
   robot.respond /update-scripts/i, id:'update-scripts.reload',  (msg) ->
     try
-      hubot_dir = process.env.hubot_dir
-      runs = "cd " + hubot_dir + "; rm -r ./misc ./scripts; git clone https://github.com/rweekly/misc ; cp ./misc/rbot/* ./scripts"
+      hubot_dir = process.env["HUBOT_DIR"]
+      runs = "cd " + hubot_dir + "; rm -r ./misc; git clone https://github.com/rweekly/misc ; cp ./misc/rbot/* ./scripts"
       exec runs,
       (error, stdout, stderr) ->
         if error

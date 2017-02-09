@@ -127,3 +127,9 @@ module.exports = (robot) ->
     robot.logger.debug "step 5"
 
     success(msg)
+
+  robot.listenerMiddleware (context, next, done) ->
+    # Log commands
+    robot.logger.info "history: #{context.response.message.user.name} asked me to #{context.response.message.text}"
+    # Continue executing middleware
+    next()

@@ -2,10 +2,13 @@
 
 ### Call
 
+Submit a URL, a description and an Email.
+
 visit this URL:
 
-https://api.rweekly.org/submit?**url**=**alink**&**desc**=**sometexts**&**email**=**email**
-
+```bash
+https://api.rweekly.org/submit?url=alink&desc=sometexts&email=email
+```
 
 ### Respond
 

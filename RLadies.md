@@ -1,4 +1,4 @@
-RLadies Twitter Accounts
+R-Ladies Twitter Accounts
 
 + [R-Ladies Izmir](https://twitter.com/RLadiesIzmir)
 

@@ -16,3 +16,5 @@ Australia R User Group
 + [Brisbane Users of R Group - BURGr](https://www.meetup.com/Brisbane-Users-of-R-Group-BURGr/)
 
 + [Adelaide R Users Group](https://www.meetup.com/Adelaide-R-Users/)
+
++ [Canberra R Users Group](https://www.meetup.com/en-AU/Canberra-R-Users-Group/)
